@@ -1,4 +1,5 @@
 # electron-equinox
+
 An example on how to load up Equinox into Electron and call an OSGi service
 
 I'm using the CMake plug-in for CDT to build the Node C++ Addon.
@@ -10,3 +11,9 @@ Also before running, do a import of org.eclipse.osgi from your target so the Lau
 
 I'm sure I'm missing things but I just wanted to get this up on github so people can look at the code
 and see if it sparks any ideas.
+
+TODO:
+brew install cmake
+npm install -g cmake-js
+npm run install
+npm run start

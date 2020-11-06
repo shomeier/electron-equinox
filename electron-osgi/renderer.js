@@ -1,4 +1,4 @@
-const osgi = require('./lib/osgi');
+const osgi = require('./build/Release/osgi');
 
 osgi.sayHi().then((value) => {
     const p = document.createElement('p');

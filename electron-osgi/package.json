@@ -4,12 +4,21 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-  	"start": "rm -fr configuration && electron .",
+    "install": "cmake-js compile",
+    "start": "rm -fr configuration && electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "1.6.6",
+    "arch": "x64"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.6.6"
+    "electron": "1.6.6"
+  },
+  "dependencies": {
+    "cmake-js": "^6.1.0"
   }
 }
